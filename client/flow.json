@@ -1,0 +1,17 @@
+Private Key              758dd100088b4858c09548de71b5f1b60c0a900d865c3b62428cc7c95888baf2 
+Public Key               460537a892a137a36cf87bbdc911a34b27da614d5096ee743a5c65fdf8ba2903ce55a7236170a988e73f43512beff7185a85c28513533f078366b23e3dcfb755 
+Mnemonic                 color spare throw news world turn negative absent aunt impulse return what 
+Derivation Path          m/44'/539'/0'/0/0 
+
+0x74f642fde64948e7
+
+
+gitpod /workspace/LinkLoom/contracts (main) $ flow project deploy --network=testnet
+
+❗   Version warning: a new version of Flow CLI is available (v1.3.1).
+   Read the installation guide for upgrade instructions: https://docs.onflow.org/flow-cli/install
+
+
+Deploying 1 contracts for accounts: testnet-account
+
+LinkLoom -> 0x74f642fde64948e7 (a73487d54d29be9bd34aec2b479d22cbb91e028140696a647afad139a1dd1e4a) 

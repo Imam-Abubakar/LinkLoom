@@ -1,0 +1,45 @@
+{
+	"contracts": {
+		"LinkLoom": "./contracts/LinkLoom.cdc",
+		"FlowToken": {
+			"source": "./contracts/FlowToken.cdc",
+			"aliases": {
+				"testnet": "7e60df042a9c0868"
+			}
+		},
+		"FungibleToken": {
+			"source": "./contracts/FungibleToken.cdc",
+			"aliases": {
+				"testnet": "9a0766d93b6608b7"
+			}
+		},
+		"NonFungibleToken": {
+			"source": "./contracts/NonFungibleToken.cdc",
+			"aliases": {
+				"testnet": "631e88ae7f1d7c20"
+			}
+		}
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "843144ac1359bde33f425c93f018d3ef77064fdbd68e45f0632b85b1cc40d913"
+		},
+		"testnet-account": {
+			"address": "75bc7a4bb8dd34d2",
+			"key": "c0a73accfbf2cbb330e1a5ecfcf02ff14651a8841fad0a262f5bdee1a6ab296c"
+		  }
+	},
+	"deployments": {
+		"testnet": {
+			"testnet-account": [
+				"LinkLoom"
+			]
+		}
+	}
+}
