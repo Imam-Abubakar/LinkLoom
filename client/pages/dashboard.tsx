@@ -4,7 +4,7 @@ import { useAuth } from "../context/AuthContext";
 import { TbCopy } from "react-icons/tb";
 import { FiCheck } from "react-icons/fi";
 import { getOwnedLinks } from "../flow/scripts";
-import { LinkLoomResponse } from "../flow/types";
+import { FlowLinkResponse } from "../flow/types";
 import Spinner from "../components/ui/Spinner";
 import Link from "next/link";
 import Button from "../components/ui/Button";
@@ -18,8 +18,8 @@ const DashboardPage = () => {
   const supabase = useSupabaseClient();
   const { currentUser, logIn } = useAuth();
   const user = useUser();
-  const [ownedNFTs, setOwnedNFTs] = useState<LinkLoomResponse[]>([]);
-  const [savedNfts, setSavedNfts] = useState<LinkLoomResponse[]>([]);
+  const [ownedNFTs, setOwnedNFTs] = useState<FlowLinkResponse[]>([]);
+  const [savedNfts, setSavedNfts] = useState<FlowLinkResponse[]>([]);
   const [loadingMintedNfts, setLoadingMintedNfts] = useState<boolean>();
   const [loadingSavedNfts, setLoadingSavedNfts] = useState<boolean>();
   const [ownedNFTDomains, setOwnedNFTDomains] = useState<Array<string>>([]);
@@ -57,7 +57,7 @@ const DashboardPage = () => {
       }
 
       if (data) {
-        let temp: LinkLoomResponse[] = [];
+        let temp: FlowLinkResponse[] = [];
         for (let nft of data) {
           const styles = nft.styles.split("/");
           let otherLinks = nft.otherlinks.split(",");
@@ -281,7 +281,7 @@ const DashboardPage = () => {
             <div className="flex w-full gap-10 text-md flex-wrap justify-between px-20 py-10 overflow-y-auto">
               {user &&
                 !loadingSavedNfts &&
-                savedNfts.map((nft: LinkLoomResponse, idx) => {
+                savedNfts.map((nft: FlowLinkResponse, idx) => {
                   return (
                     <Card
                       theme={nft.styles.theme || ""}
