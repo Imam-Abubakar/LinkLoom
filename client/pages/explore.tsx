@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getAllLinkLooms } from "../flow/scripts";
 import Spinner from "../components/ui/Spinner";
-import { LinkLoomResponse } from "../flow/types";
+import { FlowLinkResponse } from "../flow/types";
 import { DEFAULT_AVATAR } from "../components/Builder/Card";
 import Link from "next/link";
 import AppContainer from "../layouts/AppContainer";
@@ -9,7 +9,7 @@ import AppContainer from "../layouts/AppContainer";
 type Props = {};
 
 const Explore = (props: Props) => {
-  const [linkLooms, setLinkLooms] = useState<LinkLoomResponse[]>([]);
+  const [linkLooms, setLinkLooms] = useState<FlowLinkResponse[]>([]);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     const getData = async () => {

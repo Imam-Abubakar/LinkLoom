@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { checkIsAvailable, getLinkLoomByDomainName } from "../../flow/scripts";
-import { LinkLoomResponse } from "../../flow/types";
+import { FlowLinkResponse } from "../../flow/types";
 import Spinner from "../../components/ui/Spinner";
 import { useAuth } from "../../context/AuthContext";
 import Preview from "../../components/Builder/Preview";
@@ -13,7 +13,7 @@ type Props = {};
 const EditPage = (props: Props) => {
   const router = useRouter();
   const domainName = router?.query?.domainName as string;
-  const [data, setData] = useState<LinkLoomResponse>({} as LinkLoomResponse);
+  const [data, setData] = useState<FlowLinkResponse>({} as FlowLinkResponse);
   const [exists, setExists] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(true);
   // If domainName is not prefixed with @ , then add it
