@@ -11,14 +11,11 @@ Technologies Used for Development :
 - Supabase 
 
 # **LinkLoom - Weaving Your Digital Identity**
+![image](https://github.com/Imam-Abubakar/LinkLoom/assets/54324954/15ba3d84-00b2-49bf-bc51-629555368af5)
 
-![IMG_4856.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4982995d-4d71-45c6-808d-1c827bbc9407/IMG_4856.png)
+![image](https://github.com/Imam-Abubakar/LinkLoom/assets/54324954/dfdb2e84-1d16-435e-9acb-6ab901d2b246)
 
-![IMG_4857.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ea7969d-2eca-4b01-8c7f-3c50ba70e15a/IMG_4857.png)
-
-![IMG_4860.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10b27760-779c-429f-9671-dc5411fb65f1/IMG_4860.png)
-
-![IMG_4861.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee4b3a94-14a6-4fb8-b162-d1ea9e2896a3/IMG_4861.jpeg)
+![image](https://github.com/Imam-Abubakar/LinkLoom/assets/54324954/c3a96360-b52b-4c4c-b8ff-86b49f0a17b2)
 
 LinkLoom is a groundbreaking platform that empowers individuals to take control of their online presence by providing a unified interface to own, showcase, and manage all their important links. Powered by NFTs on the Flow blockchain, LinkLoom revolutionizes link management, personal branding, and digital identity.
 
