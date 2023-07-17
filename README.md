@@ -47,6 +47,6 @@ During the development of LinkLoom, I encountered several challenges, including:
 3. **Scaling and Performance:** Ensuring the platform's ability to handle a growing number of users, links, and transactions and maintaining optimal performance presented challenges in terms of scalability and efficiency.
 4. **Security and Data Integrity:** Implementing robust security measures to protect user data, prevent unauthorized access, and ensure the integrity of NFTs and associated links was crucial and required meticulous attention.
 
-Despite these challenges, the LinkLoom team successfully addressed them through thorough research, collaboration with the community, iterative development, and employing best practices in blockchain integration, user experience design, scalability, and security.
+Despite these challenges, I successfully addressed them through thorough research, collaboration with the community, iterative development, and employing best practices in blockchain integration, user experience design, scalability, and security.
 
 LinkLoom aims to empower individuals to weave their digital tapestry, consolidate their online presence, and establish ownership and authenticity in the decentralized world of Web3.
