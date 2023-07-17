@@ -207,7 +207,7 @@ const Builder = () => {
                 }
               }}
               variant="none"
-              className="bg-gray flex items-center justify-center bg-gray-800/50 !rounded-lg heading border hover:border-flow-600 hover:text-flow-500 hover:bg-flow-900/10 duration-200 ease-out border-gray-700 !text-2xl font-medium !p-8  text-gray-400"
+              className="bg-gray flex items-center justify-center bg-gray-800/50 !rounded-lg  border hover:border-flow-600 hover:text-flow-500 hover:bg-flow-900/10 duration-200 ease-out border-gray-700 !text-lg font-medium !p-3  text-gray-400"
             >
               {currentUser.addr
                 ? minting
@@ -224,7 +224,7 @@ const Builder = () => {
                 }
               }}
               variant="none"
-              className="bg-gray flex items-center justify-center bg-gray-800/50 !rounded-lg heading border hover:border-flow-600 hover:text-flow-500 hover:bg-flow-900/10 duration-200 ease-out border-gray-700 !text-2xl font-medium !p-8  text-gray-400"
+              className="bg-gray flex items-center justify-center bg-gray-800/50 !rounded-lg border hover:border-flow-600 hover:text-flow-500 hover:bg-flow-900/10 duration-200 ease-out border-gray-700 !text-lg font-medium !p-3  text-gray-400"
             >
               {user
                 ? saving
