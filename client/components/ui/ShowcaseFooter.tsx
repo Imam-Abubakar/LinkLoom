@@ -9,7 +9,7 @@ const ShowcaseFooter = () => {
         Powered by
       </div>
       <div className="text-white ">
-        <Image src={flow_logo} alt="asd" height={30}/>
+        <Image src={flow_logo} alt="flow" height={30}/>
       </div>
     </div>
   );

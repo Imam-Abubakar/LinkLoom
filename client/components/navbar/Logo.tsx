@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { FiLink } from "react-icons/fi";
+import Image from "next/image";
+import logo from "../../public/linkloom.png";
 
 
 const Logo = () => {
@@ -8,8 +9,8 @@ const Logo = () => {
     <Link href={"/"}>
       <div className='flex flex-row justify-center items-center group active:scale-95 ease-linear duration-150 lg:ml-[9rem]'>
         <div className='text-xl heading tracking-wider font-black text-flow-500  group-hover:text-white  ease-linear duration-150'>
-          Link<span className="text-white text-xl heading tracking-wider font-black  group-hover:text-flow-500   ease-linear duration-150">Loom</span>
-        </div>
+          <Image src={logo} alt={"LinkLoom"} width={180} height={100}/>
+          </div>
       </div>
     </Link>
   );

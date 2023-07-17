@@ -71,7 +71,7 @@ const AppContainer = ({ children }: any) => {
           <footer className="flex flex-col gap-3 text-center items-center justify-between md:w-80 border-t border-gray-600 pt-8">
             <div className="font-medium text-md lg:text-2xl text-flow-500">Link<span className="text-white">Loom</span></div>
             <Link
-              href={"https://github.com/Imam-Abubakar/linkloom"}
+              href={"https://github.com/Imam-Abubakar/LinkLoom"}
               className="flex items-center gap-2 text-md lg:text-xl"
             >
               {" "}

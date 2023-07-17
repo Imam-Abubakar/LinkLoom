@@ -23,10 +23,10 @@ const AuthModal = (props: Props) => {
   }
   return (
     <Modal opened={authModal} onClose={() => setAuthModal(false)} centered overlayBlur={8} radius={'lg'}>
-        <div onClick={handleSelectConectWallet} className='bg-gray flex items-center justify-center bg-gray-800/50 rounded-lg heading border hover:border-flow-600 hover:text-flow-500 hover:bg-flow-900/10 duration-200 ease-out border-gray-700 text-2xl font-medium p-8 mb-4 text-gray-400'>
+        <div onClick={handleSelectConectWallet} className='bg-gray flex items-center justify-center bg-gray-800/50 rounded-lg  border hover:border-flow-600 hover:text-flow-500 hover:bg-flow-900/10 duration-200 ease-out border-gray-700 text-lg font-medium p-3 mb-4 text-gray-400'>
           Connect Wallet
         </div>
-        <div onClick={handleSelectLogin} className='bg-gray flex items-center justify-center bg-gray-800/50 bg-gray-800 border hover:border-flow-600 hover:text-flow-500 hover:bg-flow-900/10 duration-200 ease-out border-gray-700 text-2xl font-medium heading rounded-lg p-8 text-gray-400  '>
+        <div onClick={handleSelectLogin} className='bg-gray flex items-center justify-center bg-gray-800/50 bg-gray-800 border hover:border-flow-600 hover:text-flow-500 hover:bg-flow-900/10 duration-200 ease-out border-gray-700 text-lg font-medium  rounded-lg p-3 text-gray-400  '>
           Login / Signup with Email
         </div>
     </Modal>
