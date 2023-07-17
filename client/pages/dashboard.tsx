@@ -217,7 +217,7 @@ const DashboardPage = () => {
                       </div>
                       <Link
                         href={
-                          "https://linkloom.vercel.app/@" + item?.domainName
+                          "https://link-loom.vercel.app/@" + item?.domainName
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -226,7 +226,7 @@ const DashboardPage = () => {
                       </Link>
                       <Link
                         href={
-                          "https://linkloom.vercel.app/edit/" + item?.domainName
+                          "https://link-loom.vercel.app/edit/" + item?.domainName
                         }
                       >
                         <Button variant="warning">Edit </Button>
@@ -234,7 +234,7 @@ const DashboardPage = () => {
 
                       <CopyButton
                         value={
-                          "https://linkloom.vercel.app/@" + item?.domainName
+                          "https://link-loom.vercel.app/@" + item?.domainName
                         }
                         timeout={2000}
                       >
